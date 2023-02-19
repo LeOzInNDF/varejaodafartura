@@ -39,13 +39,6 @@ function resetarImagens(){
 
 var intervalo = setInterval(avancarImagem,2000);
 
-
-$(window).load(function() {
-    $('.flexslider').flexslider({
-      animation: "slide"
-    });
-  });
-
 var offset = $('meuMenu').offset().top;
 var $meuMenu = $('meuMenu');
 $(document).on('scroll', function () {

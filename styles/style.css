@@ -52,18 +52,22 @@ section{
 }
 
 
-.container img{
+ 
+
+
+#container img{
     position:absolute;
     width:100%;
-    height:100%;
+    height:600px;
     margin-left:100%;
+    padding-top: 150px;
 
     -webkit-transition: margin-left 500ms ease-in;
     -moz-transition: margin-left 500ms ease-in;
     -o-transition: margin-left 500ms ease-in;
     transition: margin-left 500ms ease-in;
 }
- .container div{
+ #container div{
     overflow:hidden;
     position: relative;
     width:350px;
@@ -71,6 +75,8 @@ section{
 }
 .ativa{
     margin-left:0%;
+    width: 100px;
+    height: 100px;
 }
 
 .meuMenu {
@@ -80,6 +86,7 @@ section{
   margin-top: 0;
   font-size: large;
 }
+
 
 .content p{
 text-align: start;
@@ -130,14 +137,13 @@ text-align: start;
 .header{
     
     position: fixed;
-    
     top:0; left: 0;
     z-index: 999; 
     background: var(--bg-color);
     width: 100%;
     border-right: var(--border);
-    height: 100%;
-    padding:2rem;
+    height: 200px;
+    padding:0rem;
     text-align: center;
     
 }
