@@ -72,6 +72,13 @@ body{
     background: var(--bg-color);
     
 }
+
+.slider {
+  width: 100%;
+  height: 300px;
+  
+}
+
 /*
 body.active{
     --black:#fff;
