@@ -34,7 +34,7 @@ body{
     background: var(--bg-color);
     
 }
-/*
+
 body.active{
     --black:#fff;
     --light-color:#ddd;
@@ -45,7 +45,7 @@ body.active{
     --box-shadow-inset:.4rem .4rem 1rem #111 inset,
                       -.4rem -.4rem 1rem #333 inset;
 }
-*/
+
 section{
     min-height: 100vh;
     padding:2rem;
@@ -107,7 +107,7 @@ text-align: start;
     position: fixed;
     
     top:0; left: 0;
-    /*z-index: 999; */
+    z-index: 999; 
     background: var(--bg-color);
     width: 100%;
     border-right: var(--border);
@@ -161,8 +161,8 @@ text-align: start;
 /*
 
 /* media queries  */
-/*
 
+/*
 @media (max-width:991px){
 
   html{
@@ -211,4 +211,3 @@ text-align: start;
   }
 }
 
-*/
