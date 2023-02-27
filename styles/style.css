@@ -26,7 +26,7 @@
  html{
     font-size: 62.5%;
     overflow-x: hidden;
-    scroll-behavior: smooth;  
+    scroll-behavior: smooth; 
 }
 
 
@@ -53,7 +53,7 @@ section{
 
 
 .meuMenu {
-    text-align: center;
+  text-align: center;
   background: #fff;
   padding: 20px;
   margin-top: 0;
@@ -130,8 +130,8 @@ text-align: start;
 
 .header .user h3{
     color:var(--black);
-    font-size: 2.5rem;
-    background-color: #fff;
+    font-size: 3.5rem;
+    
 }
 
 .header .user p{

@@ -1,3 +1,10 @@
+// Can also be used with $(document).ready()
+$(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
+
 var offset = $('meuMenu').offset().top;
 var $meuMenu = $('meuMenu');
 $(document).on('scroll', function () {
@@ -7,3 +14,4 @@ $(document).on('scroll', function () {
         $meuMenu.removeClass('fixar');
     }
 });
+
