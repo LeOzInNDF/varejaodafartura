@@ -110,10 +110,10 @@ section{
     border-right: var(--border);
     height: 100%;
     padding:2rem;
-    
+    text-align: center;
 }
 
- .header .logo img{
+ .header .user img{
     margin:1rem 0;
     border:1rem solid transparent;
     border-radius: 50%;
@@ -122,12 +122,12 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.header .logo h3{
+.header .user h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.header .logo p{
+.header .user p{
     color:var(--green);
     font-size: 1.5rem;
 }
