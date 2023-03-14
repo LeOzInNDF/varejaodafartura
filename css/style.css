@@ -23,8 +23,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
-    align-items: center;
-    text-align: center;
+   
 }
 
 a {
@@ -98,10 +97,7 @@ body.active{
                       -.4rem -.4rem 1rem #333 inset;
 }
 */
-section{
-    min-height: 100vh;
-    padding:2rem;
-}
+
 
 
 .main_header_menu {
@@ -156,21 +152,44 @@ section{
   box-shadow: var(--box-shadow);
 }
 
+
+div .img-content1{
+  width: 200px;
+  height: 300px;
+  border: 5px solid blue ;
+}
+
+div .img-content2{
+  width: 200px;
+  height: 300px;
+}
+
+div .img-content3{
+  width: 200px;
+  height: 300px;
+}
+
+div .img-content4{
+  width: 200px;
+  height: 300px;
+}
+
 .img-content1 {
-  width: 250px;
-  height: 100px;
+  max-width: 250px;
+  min-height: 250px;
  display: inline-block;
-  
+  background: #d00f0f;
     padding: 10px 20px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .img-content2 {
-  width: 250px;
-  height: 100px;
+  max-width: 250px;
+  min-height: 250px;
   display: inline-block;
-    padding: 10px 20px;
-    box-sizing: border-box;
+  background: #d00f0f;
+    padding: 100px 20px;
+    box-sizing: content-box;
 }
 
 .img-content3 {
@@ -178,7 +197,7 @@ section{
   height: 100px;
   display: inline-block;
     padding: 10px 20px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .img-content4 {
@@ -186,7 +205,7 @@ section{
   height: 100px;
   display: inline-block;
     padding: 10px 20px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .content { 
@@ -235,6 +254,7 @@ section{
 
 .section_title{
   color: rgb(97,130,98);
+  margin-bottom: 10px;
 }
 
 /*Seu Código*/
@@ -262,8 +282,58 @@ section{
 
 /*Começa o Responsivo*/
 
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+
+  body{
+      padding-left: 0;
+  }
+
+  .main_header{
+      left:-110%;
+  }
+
+  .main_header.active{
+      left:0%;
+      transition: .4s linear;
+  }
+
+  #menu-btn{
+      display: initial;
+  }
+
+  .git{
+      width: 50rem;
+      height: 50rem;
+  }
+}
+
+
+
+@media (max-width:500px){
+
+  html{
+      font-size: 50%;
+  }
+
+  .main_header{
+      width:100%;
+      border-right: 0;
+  }
+
+  .git{
+      width: 40rem;
+      height: 40rem;
+  }
+}
+
+
 /*480PX BREAKPOINT*/
 /*480 dividido por 16 = 30em*/
+/*
 @media (min-width:30em){
 
 .boxBannerTopo { padding:1em 0; }
@@ -272,6 +342,7 @@ section{
 
 /*600PX BREAKPOINT*/
 /*600 dividido por 16 = 37,5em*/
+/*
 @media (min-width:37em){
 
 
@@ -279,6 +350,7 @@ section{
 
 /*768PX BREAKPOINT*/
 /*768 dividido por 16 = 48em*/
+/*
 @media (min-width:48em){
 
 
@@ -286,6 +358,7 @@ section{
 
 /*960PX BREAKPOINT*/
 /*960 dividido por 16 = 60em*/
+/*
 @media (min-width:60em){
 
  .section-seu-codigo          { padding:20px 0px; }
@@ -297,6 +370,7 @@ section{
 
 /*1280PX BREAKPOINT*/
 /*1280 dividido por 16 = 80em*/
+/*
 @media (min-width:80em){
 
  
@@ -304,6 +378,7 @@ section{
 
 /*1366PX BREAKPOINT*/
 /*1366 dividido por 16 = 85,375em*/
+/*
 @media (min-width:85em){
 
  .content  { width:80%; margin:0 10%; }
@@ -312,9 +387,11 @@ section{
 
 /*1600PX BREAKPOINT*/
 /*1600 dividido por 16 = 100em*/
+/*
 @media (min-width:100em){
 
 
 }
+
 /*Fecha o Responsivo*/
 
