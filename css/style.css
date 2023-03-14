@@ -155,23 +155,28 @@ body.active{
 
 div .img-content1{
   width: 200px;
-  height: 300px;
+  height: 500px;
+  display: inline-block;
   border: 5px solid blue ;
+  box-sizing:border-box;
 }
 
 div .img-content2{
   width: 200px;
-  height: 300px;
+  height: 500px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 div .img-content3{
   width: 200px;
-  height: 300px;
+  height: 500px;
+  display: inline-block;
 }
 
 div .img-content4{
   width: 200px;
-  height: 300px;
+  height: 500px;
 }
 
 .img-content1 {
@@ -281,7 +286,7 @@ div .img-content4{
 
 
 /*Começa o Responsivo*/
-
+/*
 @media (max-width:991px){
 
   html{
